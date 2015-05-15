@@ -1,0 +1,25 @@
+<html ng-app="myapp">
+<head>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="datepicker.css">
+
+<script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/2.0.4/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+<script src="datepicker.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+<div>
+
+            <div class="col-md-3 panel-row-spacing tps-date-picker" ng-controller="AppCtrl">
+                <input class="col-md-12 panel-row-spacing" type="text" data-ng-datepicker data-ng-options="datepickerOptions"
+                       data-ng-model="date">
+                <span class="iconhalf date-picker datepicker-icon"></span>
+            </div>
+
+</div>
+
+
+</body>
+</html>
